@@ -28,4 +28,37 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/SoundhariyaSi/taskmanager.git
 
+2. **Navigate to the project directory**:
+
+bash
+Copy code
+cd task-manager-website
+
+3.**Install the dependencies**:
+
+bash
+Copy code
+npm install
+
+4.**Set up Firebase**:
+
+Create a Firebase project on the Firebase Console.
+Enable Firebase Authentication and set up your authentication method.
+Create a .env file in the root directory and add your Firebase configuration details:
+makefile
+Copy code
+    apiKey: "AIzaSyD7AeHG23ytHG9qgazKDrF2qnzsWbIIHrY",
+    authDomain: "task-management-app-44e32.firebaseapp.com",
+    projectId: "task-management-app-44e32",
+    storageBucket: "task-management-app-44e32.appspot.com",
+    messagingSenderId: "477166431327",
+    appId: "1:477166431327:web:435846f828df02ef093fea"
+
+5.**Start the development server**:
+
+bash
+Copy code
+npm start
+The application will run on http://localhost:3000.
+
 
